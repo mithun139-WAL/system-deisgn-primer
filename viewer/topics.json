@@ -20,6 +20,46 @@
     ]
   },
   {
+    "category": "Crash Course (1 Hour)",
+    "items": [
+      {
+        "title": "Databases & Indexes",
+        "path": "viewer/crash-course.md",
+        "anchor": "databases-and-indexes"
+      },
+      {
+        "title": "Transactions & Concurrency",
+        "path": "viewer/crash-course.md",
+        "anchor": "transactions"
+      },
+      {
+        "title": "Storage & Serialization",
+        "path": "viewer/crash-course.md",
+        "anchor": "storage-and-serialization"
+      },
+      {
+        "title": "Replication",
+        "path": "viewer/crash-course.md",
+        "anchor": "replication"
+      },
+      {
+        "title": "Sharding & Partitioning",
+        "path": "viewer/crash-course.md",
+        "anchor": "sharding-and-partitioning"
+      },
+      {
+        "title": "Processing Frameworks",
+        "path": "viewer/crash-course.md",
+        "anchor": "processing-frameworks"
+      },
+      {
+        "title": "Choosing a Database",
+        "path": "viewer/crash-course.md",
+        "anchor": "choosing-a-database"
+      }
+    ]
+  },
+  {
     "category": "System Design Topics",
     "items": [
       {

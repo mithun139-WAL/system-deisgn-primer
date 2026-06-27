@@ -652,6 +652,15 @@ function renderMarkdown(markdownText, filePath, anchor) {
             img.src = folderPath ? `../${folderPath}/${src}` : `../${src}`;
         }
     });
+
+    // Render Mermaid diagrams
+    if (window.mermaid) {
+        try {
+            mermaid.init(undefined, markdownContainer.querySelectorAll('.mermaid'));
+        } catch (e) {
+            console.error('Mermaid render error:', e);
+        }
+    }
 }
 
 function renderJupyterNotebook(notebookJson) {

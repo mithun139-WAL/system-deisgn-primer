@@ -1369,3 +1369,22 @@ body {
         text-align: left;
     }
 }
+
+
+/* Mermaid Diagram Styling */
+.mermaid {
+    background-color: var(--bg-card);
+    border-radius: 18px;
+    padding: 24px;
+    margin: 24px 0;
+    box-shadow: var(--clay-shadow-card);
+    border: 2px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.mermaid svg {
+    max-width: 100%;
+    height: auto;
+}
