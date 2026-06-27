@@ -4,17 +4,17 @@
     "items": [
       {
         "title": "Welcome & Motivation",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "motivation"
       },
       {
         "title": "Study Guide",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "study-guide"
       },
       {
         "title": "Interview Approach",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "how-to-approach-a-system-design-interview-question"
       }
     ]
@@ -24,82 +24,82 @@
     "items": [
       {
         "title": "Performance vs Scalability",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "performance-vs-scalability"
       },
       {
         "title": "Latency vs Throughput",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "latency-vs-throughput"
       },
       {
         "title": "Availability vs Consistency",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "availability-vs-consistency"
       },
       {
         "title": "Consistency Patterns",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "consistency-patterns"
       },
       {
         "title": "Availability Patterns",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "availability-patterns"
       },
       {
         "title": "Domain Name System (DNS)",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "domain-name-system"
       },
       {
         "title": "Content Delivery Network (CDN)",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "content-delivery-network"
       },
       {
         "title": "Load Balancer",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "load-balancer"
       },
       {
         "title": "Reverse Proxy (Web Server)",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "reverse-proxy-web-server"
       },
       {
         "title": "Application Layer",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "application-layer"
       },
       {
         "title": "Database",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "database"
       },
       {
         "title": "Cache",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "cache"
       },
       {
         "title": "Asynchronism",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "asynchronism"
       },
       {
         "title": "Communication",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "communication"
       },
       {
         "title": "Security",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "security"
       },
       {
         "title": "Appendix",
-        "path": "README.md",
+        "path": "README-en.md",
         "anchor": "appendix"
       }
     ]

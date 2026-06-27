@@ -249,7 +249,7 @@ async function init() {
 
     // Set initial route
     if (!window.location.hash) {
-        window.location.hash = '#path=README.md&anchor=motivation';
+        window.location.hash = '#path=README-en.md&anchor=motivation';
     } else {
         handleRouting();
     }
@@ -497,6 +497,10 @@ window.copyCodeText = function (btn) {
 
 // Translate filename paths if available
 function getResolvedTranslationPath(path, lang) {
+    if (path === 'README-en.md') {
+        return lang === 'en' ? 'README-en.md' : `README-${lang}.md`;
+    }
+
     if (lang === 'en') return path;
 
     if (path === 'README.md') {
@@ -774,7 +778,7 @@ function updateActiveSidebarLink(path, anchor) {
 
 function updateBreadcrumbs(path) {
     let parts = [];
-    if (path === 'README.md') {
+    if (path === 'README.md' || path === 'README-en.md') {
         parts = ['Theory', 'Introduction'];
     } else if (path.startsWith('solutions/system_design/')) {
         const name = path.split('/')[2].replace('_', ' ');
