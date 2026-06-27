@@ -901,7 +901,8 @@ function showView(viewName) {
         documentView.classList.add('active');
         flashcardsView.style.display = 'none';
         flashcardsToggleBtn.innerHTML = `<i data-lucide="cards"></i><span>Flashcard Quiz</span>`;
-        document.getElementById('outline-aside').style.display = 'flex';
+        // Use empty string so CSS media queries can control visibility (e.g., hide on mobile)
+        document.getElementById('outline-aside').style.display = '';
         breadcrumbs.style.visibility = 'visible';
     } else if (viewName === 'flashcards') {
         documentView.classList.remove('active');

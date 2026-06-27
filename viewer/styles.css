@@ -349,7 +349,10 @@ body {
     background-color: var(--bg-card);
     box-shadow: 0 4px 12px rgba(184, 180, 170, 0.1);
     border-bottom: 1px solid #E5E1D8;
-    z-index: 10;
+    z-index: 50;
+    position: sticky;
+    top: 0;
+    flex-shrink: 0;
 }
 
 .mobile-toggle-btn,
@@ -1259,16 +1262,29 @@ body {
 }
 
 @media (max-width: 768px) {
-    .app-container {
-        grid-template-columns: 1fr;
+    body {
+        overflow: hidden;
+        height: 100dvh;
     }
 
+    .app-container {
+        /* Switch from CSS Grid to flexbox column on mobile for predictable stacking */
+        display: flex;
+        flex-direction: column;
+        height: 100dvh;
+        overflow: hidden;
+        /* Override the desktop grid-template-columns */
+        grid-template-columns: unset;
+    }
+
+    /* Sidebar is fixed/off-canvas on mobile — removed from layout flow */
     .sidebar {
         position: fixed;
         left: -100%;
         top: 0;
         z-index: 100;
         width: 280px;
+        height: 100dvh;
         box-shadow: 10px 0 30px rgba(0, 0, 0, 0.1);
         transition: left 0.3s ease;
     }
@@ -1277,8 +1293,26 @@ body {
         left: 0;
     }
 
+    /* Mobile header: visible, sticky at top, never shrinks */
     .mobile-header {
         display: flex;
+        flex-shrink: 0;
+        position: sticky;
+        top: 0;
+        z-index: 50;
+    }
+
+    /* Main content fills the rest of the screen height */
+    .main-content {
+        flex: 1;
+        min-height: 0;
+        height: auto;
+        overflow: hidden;
+    }
+
+    /* Outline aside is off-screen on mobile (already hidden at ≤1200px) */
+    .outline-aside {
+        display: none;
     }
 
     .content-header {
@@ -1288,6 +1322,11 @@ body {
 
     .content-body {
         padding: 20px;
+        /* flex:1 + min-height:0 lets it fill remaining flex space and scroll properly */
+        flex: 1;
+        min-height: 0;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
     .welcome-card {
