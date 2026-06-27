@@ -1,0 +1,253 @@
+[
+  {
+    "category": "Getting Started",
+    "items": [
+      {
+        "title": "Welcome & Motivation",
+        "path": "README.md",
+        "anchor": "motivation"
+      },
+      {
+        "title": "Study Guide",
+        "path": "README.md",
+        "anchor": "study-guide"
+      },
+      {
+        "title": "Interview Approach",
+        "path": "README.md",
+        "anchor": "how-to-approach-a-system-design-interview-question"
+      }
+    ]
+  },
+  {
+    "category": "System Design Topics",
+    "items": [
+      {
+        "title": "Performance vs Scalability",
+        "path": "README.md",
+        "anchor": "performance-vs-scalability"
+      },
+      {
+        "title": "Latency vs Throughput",
+        "path": "README.md",
+        "anchor": "latency-vs-throughput"
+      },
+      {
+        "title": "Availability vs Consistency",
+        "path": "README.md",
+        "anchor": "availability-vs-consistency"
+      },
+      {
+        "title": "Consistency Patterns",
+        "path": "README.md",
+        "anchor": "consistency-patterns"
+      },
+      {
+        "title": "Availability Patterns",
+        "path": "README.md",
+        "anchor": "availability-patterns"
+      },
+      {
+        "title": "Domain Name System (DNS)",
+        "path": "README.md",
+        "anchor": "domain-name-system"
+      },
+      {
+        "title": "Content Delivery Network (CDN)",
+        "path": "README.md",
+        "anchor": "content-delivery-network"
+      },
+      {
+        "title": "Load Balancer",
+        "path": "README.md",
+        "anchor": "load-balancer"
+      },
+      {
+        "title": "Reverse Proxy (Web Server)",
+        "path": "README.md",
+        "anchor": "reverse-proxy-web-server"
+      },
+      {
+        "title": "Application Layer",
+        "path": "README.md",
+        "anchor": "application-layer"
+      },
+      {
+        "title": "Database",
+        "path": "README.md",
+        "anchor": "database"
+      },
+      {
+        "title": "Cache",
+        "path": "README.md",
+        "anchor": "cache"
+      },
+      {
+        "title": "Asynchronism",
+        "path": "README.md",
+        "anchor": "asynchronism"
+      },
+      {
+        "title": "Communication",
+        "path": "README.md",
+        "anchor": "communication"
+      },
+      {
+        "title": "Security",
+        "path": "README.md",
+        "anchor": "security"
+      },
+      {
+        "title": "Appendix",
+        "path": "README.md",
+        "anchor": "appendix"
+      }
+    ]
+  },
+  {
+    "category": "System Design Exercises",
+    "items": [
+      {
+        "title": "Design Pastebin",
+        "path": "solutions/system_design/pastebin/README.md",
+        "code_files": [
+          {
+            "name": "pastebin.py",
+            "path": "solutions/system_design/pastebin/pastebin.py"
+          }
+        ]
+      },
+      {
+        "title": "Design Twitter",
+        "path": "solutions/system_design/twitter/README.md"
+      },
+      {
+        "title": "Design Web Crawler",
+        "path": "solutions/system_design/web_crawler/README.md",
+        "code_files": [
+          {
+            "name": "web_crawler_mapreduce.py",
+            "path": "solutions/system_design/web_crawler/web_crawler_mapreduce.py"
+          },
+          {
+            "name": "web_crawler_snippets.py",
+            "path": "solutions/system_design/web_crawler/web_crawler_snippets.py"
+          }
+        ]
+      },
+      {
+        "title": "Design Mint",
+        "path": "solutions/system_design/mint/README.md",
+        "code_files": [
+          {
+            "name": "mint_snippets.py",
+            "path": "solutions/system_design/mint/mint_snippets.py"
+          },
+          {
+            "name": "mint_mapreduce.py",
+            "path": "solutions/system_design/mint/mint_mapreduce.py"
+          }
+        ]
+      },
+      {
+        "title": "Design Social Network Graph",
+        "path": "solutions/system_design/social_graph/README.md",
+        "code_files": [
+          {
+            "name": "social_graph_snippets.py",
+            "path": "solutions/system_design/social_graph/social_graph_snippets.py"
+          }
+        ]
+      },
+      {
+        "title": "Design Key-Value Cache",
+        "path": "solutions/system_design/query_cache/README.md",
+        "code_files": [
+          {
+            "name": "query_cache_snippets.py",
+            "path": "solutions/system_design/query_cache/query_cache_snippets.py"
+          }
+        ]
+      },
+      {
+        "title": "Design Sales Rank",
+        "path": "solutions/system_design/sales_rank/README.md",
+        "code_files": [
+          {
+            "name": "sales_rank_mapreduce.py",
+            "path": "solutions/system_design/sales_rank/sales_rank_mapreduce.py"
+          }
+        ]
+      },
+      {
+        "title": "Design Scaling AWS",
+        "path": "solutions/system_design/scaling_aws/README.md"
+      }
+    ]
+  },
+  {
+    "category": "Object-Oriented Design Exercises",
+    "items": [
+      {
+        "title": "Design a Hash Map",
+        "path": "solutions/object_oriented_design/hash_table/hash_map.ipynb",
+        "code_files": [
+          {
+            "name": "hash_map.py",
+            "path": "solutions/object_oriented_design/hash_table/hash_map.py"
+          }
+        ]
+      },
+      {
+        "title": "Design a LRU Cache",
+        "path": "solutions/object_oriented_design/lru_cache/lru_cache.ipynb",
+        "code_files": [
+          {
+            "name": "lru_cache.py",
+            "path": "solutions/object_oriented_design/lru_cache/lru_cache.py"
+          }
+        ]
+      },
+      {
+        "title": "Design a Call Center",
+        "path": "solutions/object_oriented_design/call_center/call_center.ipynb",
+        "code_files": [
+          {
+            "name": "call_center.py",
+            "path": "solutions/object_oriented_design/call_center/call_center.py"
+          }
+        ]
+      },
+      {
+        "title": "Design a Deck of Cards",
+        "path": "solutions/object_oriented_design/deck_of_cards/deck_of_cards.ipynb",
+        "code_files": [
+          {
+            "name": "deck_of_cards.py",
+            "path": "solutions/object_oriented_design/deck_of_cards/deck_of_cards.py"
+          }
+        ]
+      },
+      {
+        "title": "Design a Parking Lot",
+        "path": "solutions/object_oriented_design/parking_lot/parking_lot.ipynb",
+        "code_files": [
+          {
+            "name": "parking_lot.py",
+            "path": "solutions/object_oriented_design/parking_lot/parking_lot.py"
+          }
+        ]
+      },
+      {
+        "title": "Design a Chat Server",
+        "path": "solutions/object_oriented_design/online_chat/online_chat.ipynb",
+        "code_files": [
+          {
+            "name": "online_chat.py",
+            "path": "solutions/object_oriented_design/online_chat/online_chat.py"
+          }
+        ]
+      }
+    ]
+  }
+]
