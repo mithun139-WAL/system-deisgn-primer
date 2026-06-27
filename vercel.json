@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/viewer/",
+      "permanent": false
+    }
+  ]
+}
